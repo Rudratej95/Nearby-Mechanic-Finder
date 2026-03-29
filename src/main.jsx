@@ -7,7 +7,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Nearby-Mechanic-Finder">
       <AuthProvider>
         <App />
       </AuthProvider>
